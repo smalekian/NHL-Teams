@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <h2><%= gettext "Hey, Coach!" %></h2>
+  <p class="lead">Welcome to NHL Teams!<br />Check out your team and their divisional competition.</p>
+  </br></br>
+  <a href="<%= login_path(@conn, :create) %>">Login</a>
+</div>
+
+

@@ -1,0 +1,12 @@
+<h1>Login here to view the teams in your team's division:</h1>
+
+<%= form_for @changeset, login_path(@conn, :add), fn f -> %>
+  Full Name <%= text_input f, :name %></br>
+  Team Location <%= text_input f, :team_location %></br>
+  Team Mascot <%= text_input f, :team_mascot %></br>
+  Team Division  <%= text_input f, :team_division_name %></br>
+  Team Division Number (see below) <%= text_input f, :team_division_id %></br>
+  NOTE: Metropolitan = 0, Atlantic = 1, Central = 2, Pacific = 3</br></br>
+  <%= submit "Login" %>
+
+  <% end %>

@@ -1,0 +1,5 @@
+<%= for t <- @teams do %>
+  <p><%= inspect t %></p>
+<% end %>
+</br></br>
+<a href="<%= page_path(@conn, :index) %>">Back Home</a>
