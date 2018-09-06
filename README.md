@@ -20,7 +20,7 @@ curl -XPUT localhost:9200/nhl_index/teams/6 -H 'Content-Type: application/json' 
 ```
 
 ## Elixir/Phoenix Setup
-Before going any further, ensure you have Elixir and Node.js installed.
+Before going any further, ensure you have Elixir, Node.js, and Postgres installed.
 
 Now start the server:
   * Install dependencies with `mix deps.get` from the root of this project.
