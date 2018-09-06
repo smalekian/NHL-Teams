@@ -5,7 +5,7 @@ defmodule NhlTeams.Repo.Migrations.CreateTeams do
     create table(:teams) do
       add :location, :string
       add :mascot, :string
-      add :division_id, :string
+      add :division_id, :integer
       add :division, :string
 
       timestamps()
