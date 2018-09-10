@@ -33,9 +33,9 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 ---
 
-#Here's what you can do:
+# Here's what you can do:
 
-##Pretend you're a coach...
+## Pretend you're a coach...
 * Log into the site to view your divisional competition.
 * Once you fill out the login form, your Elasticsearch cluster will be queried and return to you the teams from your division.
 * You are NOT permitted to view the other teams -- that is, unless you log in immediately after as a coach from a different division.
